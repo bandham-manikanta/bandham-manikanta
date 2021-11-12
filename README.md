@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @bandham-manikanta
-- 👀 I’m a Data Scientist at Ford.
+- 👀 Data Scientist at Ford.
 - 📫 How to reach me at https://www.linkedin.com/in/bandhammanikanta/
 
 <br />
