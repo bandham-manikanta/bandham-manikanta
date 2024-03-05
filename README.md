@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @bandham-manikanta
+- 👋 Hi, I’m Manikanta Bandham
 - 👀 Data Scientist at Ford.
 - 📫 Feel free to reach me at https://www.linkedin.com/in/bandhammanikanta/
 
