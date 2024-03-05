@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Manikanta Bandham
 - 👀 Data Scientist at Ford.
-- 📫 Feel free to reach me at https://www.linkedin.com/in/bandhammanikanta/
+- 📫 ==Feel free== to reach me at https://www.linkedin.com/in/bandhammanikanta/
 
 <br />
 
