@@ -30,7 +30,9 @@ Thank you for visiting my GitHub profile. Here, I share my passion for data scie
 <br />
 
 | | |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------- |
-| ![Bandham's github stats](https://github-readme-stats.vercel.app/api?username=bandham-manikanta&show_icons=true&theme=algolia&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bandham-manikanta&theme=algolia) | ![Profile views](https://rushter.com/counter.svg)
+| ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| ![Bandham's github stats](https://github-readme-stats.vercel.app/api?username=bandham-manikanta&show_icons=true&theme=algolia&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bandham-manikanta&theme=algolia) 
+
+![Profile views](https://rushter.com/counter.svg)
 
 <br />
