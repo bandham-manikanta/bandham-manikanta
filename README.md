@@ -17,7 +17,7 @@ Currently enriching Ford Motor Company as a Data Scientist in Chennai, India, my
 
 **Let's Connect:**
 
-I'm always eager to connect with professionals from the tech and data science communities. You can learn more about my projects and skills through my [LinkedIn](linkedin.com/in/bandhammanikanta) or reach out directly at manikanta.bandham@stonybrook.edu.
+I'm always eager to connect with professionals from the tech and data science communities. You can learn more about my projects and skills through my [LinkedIn](https://www.linkedin.com/in/bandhammanikanta/) or reach out directly at bandham.manikanta@gmail.com.
 
 **Exploring and Sharing Knowledge:**
 
@@ -25,4 +25,4 @@ I believe in the power of community and knowledge sharing. You'll find me presen
 
 Thank you for visiting my GitHub profile. Here, I share my passion for data science, machine learning, and software engineering through various projects and collaborations. Whether you're here to explore potential collaborations or simply to learn, I hope you find my work inspiring and informative.
 
-- Manikanta Bandham
+~ Manikanta Bandham
