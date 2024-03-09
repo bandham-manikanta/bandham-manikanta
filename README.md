@@ -26,3 +26,11 @@ I believe in the power of community and knowledge sharing. You'll find me presen
 Thank you for visiting my GitHub profile. Here, I share my passion for data science, machine learning, and software engineering through various projects and collaborations. Whether you're here to explore potential collaborations or simply to learn, I hope you find my work inspiring and informative.
 
 ~ Manikanta Bandham
+
+<br />
+
+| | |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| ![Bandham's github stats](https://github-readme-stats.vercel.app/api?username=bandham-manikanta&show_icons=true&theme=algolia&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bandham-manikanta&theme=algolia)
+
+<br />
