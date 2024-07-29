@@ -17,8 +17,8 @@ Currently enriching Ford Motor Company as a Data Scientist in Chennai, India, my
 
 **Let's Connect:**
 
-💼 any freelance work? do reach at prajnasbhandary@gmail.com :)
-💬 Want to know more about my work? ping me on linkedin, i am happy to help;
+💼 any freelance work? do reach at bandhammanikanta@gmail.com :)
+💬 Want to know more about my work? ping me on [linkedin](https://www.linkedin.com/in/bandham-manikanta/), i am happy to help;
 
 **Exploring and Sharing Knowledge:**
 
