@@ -17,7 +17,8 @@ Currently enriching Ford Motor Company as a Data Scientist in Chennai, India, my
 
 **Let's Connect:**
 
-I'm always eager to connect with professionals from the tech and data science communities. You can learn more about my projects and skills through my [LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) or reach out directly at bandham.manikanta@gmail.com.
+💼 any freelance work? do reach at prajnasbhandary@gmail.com :)
+💬 Want to know more about my work? ping me on linkedin, i am happy to help;
 
 **Exploring and Sharing Knowledge:**
 
