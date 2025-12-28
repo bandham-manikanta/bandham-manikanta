@@ -15,4 +15,4 @@ I build production-grade ML systems and LLM pipelines that scale. Previously bui
 
 | | |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
-| ![Bandham's github stats](https://github-readme-stats.vercel.app/api?username=bandham-manikanta&show_icons=true&theme=algolia&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bandham-manikanta&theme=algolia)
+| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bandham-manikanta&theme=algolia)
