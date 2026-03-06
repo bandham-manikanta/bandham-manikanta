@@ -1,18 +1,10 @@
 # Manikanta Bandham
-**Senior Machine Learning Engineer** | MS Data Science @ Stony Brook
+**Senior Machine Learning Engineer | Edge AI & Backend Inference** I build production-grade ML systems and LLM inference pipelines that scale. I have 5.5 years of heavy industry experience building automation systems at **Ford** (orchestrating 90M+ records) and scaling defect classification tools at **Amazon**. 
 
-I build production-grade ML systems and LLM pipelines that scale. Previously built compliance automation systems at **Ford** (handling 90M+ records) and defect classification tools at **Amazon**.
+**Focus Areas:** Backend Inference (vLLM, Triton), Edge AI (ONNX, llama.cpp), Distributed Training (PyTorch DDP), and high-throughput Data Engineering (PySpark, FAISS).
 
-**Focus Areas:** Large Language Models (RAG, LoRA), Distributed Training, and Data Engineering.
-
-- 🔭 **Research:** Paper accepted at **AACL 2025** (MuSciClaims: Multimodal Scientific Claim Verification).
-- 🛠️ **Stack:** Python, PyTorch, PySpark, Docker, Google Cloud/AWS, SQL.
-- 📍 **Location:** New York, USA (Open to Relocation).
+- 🛠️ **Stack:** Python, PyTorch, PySpark, vLLM, Docker, Kubernetes, AWS/GCP, Vector Databases.
+- ⚙️ **Current Work:** Optimizing Edge AI deployments (Qwen/MobileNet) with 4-bit quantization under strict VRAM constraints.
+- 📍 **Location:** Jersey City, NJ, USA (Open to Relocation).
 
 [LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) | [Email](mailto:bandhammanikanta@gmail.com)
-
-<br />
-
-| | |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------- |
-| ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bandham-manikanta&theme=algolia)
