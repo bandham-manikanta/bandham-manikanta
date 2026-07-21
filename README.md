@@ -1,16 +1,10 @@
 # Manikanta Bandham
 
-**ML Engineer** — production LLM systems, RAG pipelines, and distributed training at scale.
+**ML Systems Engineer**
 
-Ford · Amazon · Stony Brook University · 5 years
+Ford · Amazon · Stony Brook University
 
----
-
-`90M+ record ETL pipelines`    `8B+ param VLMs on A100 clusters`    `RAG at 4× latency`    `$1.5M cost reduction`
-
----
-
-**Stack**    PyTorch · vLLM · PySpark · Airflow · LangChain · LoRA/PEFT · GCP · AWS · FAISS · Docker
+**Stack**    vLLM · SGLang · PyTorch
 
 [LinkedIn](https://www.linkedin.com/in/bandham-manikanta/)  ·  [Email](mailto:bandhammanikanta@gmail.com)
 
