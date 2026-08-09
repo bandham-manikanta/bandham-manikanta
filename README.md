@@ -20,8 +20,6 @@ Specializing in high-throughput LLM serving engine optimizations, KV cache memor
 #### [SGLang Project (`sgl-project/sglang`)](https://github.com/sgl-project/sglang)
 - **[PR #32152](https://github.com/sgl-project/sglang/pull/32152)**: `[Attention] Add attention-backend auto-tune CLI (#13363)`  
   *Implemented automated attention backend benchmarking suite across FlashAttention, FlashInfer, and Triton kernels.*
-- **[PR #31990](https://github.com/sgl-project/sglang/pull/31990)**: `[Test] Add unit tests for mem_cache/common helpers`  
-  *Designed regression test suite for core GPU memory cache management helpers.*
 
 ---
 
