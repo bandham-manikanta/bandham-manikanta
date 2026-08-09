@@ -1,7 +1,7 @@
 # Manikanta Bandham
 
 **ML Systems & AI Infrastructure Engineer**  
-Stony Brook University | Ex-Amazon | Ex-Ford
+Ex-Amazon | Ex-Ford | Stony Brook University
 
 Specializing in high-throughput LLM serving engine optimizations, KV cache memory management, speculative decoding, and continuous batching schedulers.
 
