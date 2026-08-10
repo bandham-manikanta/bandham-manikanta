@@ -1,27 +1,31 @@
 # Manikanta Bandham
 
-**ML Systems & AI Infrastructure Engineer**  
-Ex-Amazon | Ex-Ford | Stony Brook University
+**ML Systems & LLM Inference Engineer**  
+Ex-Amazon | Ex-Ford | M.S. Computer Science, Stony Brook University
 
-Specializing in high-throughput LLM serving engine optimizations, KV cache memory management, speculative decoding, and continuous batching schedulers.
+Specializing in high-performance LLM serving engine architectures, continuous batching scheduler algorithms, `torch.compile` / PyTorch Dynamo graph passes, CUDA stream synchronization, and KV cache memory management.
 
-[LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) · [Email](mailto:bandhammanikanta@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) · [GitHub](https://github.com/bandham-manikanta) · [Email](mailto:bandhammanikanta@gmail.com)
 
 ---
 
-### 🚀 Active Open Source Contributions
+### 🚀 Key Open Source Contributions
 
-#### [vLLM Project (`vllm-project/vllm`)](https://github.com/vllm-project/vllm)
-- **[PR #51599](https://github.com/vllm-project/vllm/pull/51599)**: `fix(v1): decouple async Mamba align D2H counts from InputBatch row shifts (#51571)`  
-  *Eliminated CUDA stream D2H race condition during Mamba speculative decoding / MTP async scheduling by snapshotting unmutated CPU token counts.*
-- **[PR #51574](https://github.com/vllm-project/vllm/pull/51574)**: `[V1 Scheduler] Fix Priority Queue Preemption Re-admission (#41951)`  
-  *Eliminated priority queue starvation in V1 continuous batching engine by designing a composite sorting key with bounded preemption boost.*
-- **[PR #50973](https://github.com/vllm-project/vllm/pull/50973)**: `[compile] Remove layer_name from unified_kv_cache_update`  
-  *Optimized `torch.compile` graph capture path in KV Cache Manager by decoupling layer name metadata, achieving a 12s cold-start speedup.*
+#### ⚡ [vLLM Core Serving Engine (`vllm-project/vllm`)](https://github.com/vllm-project/vllm)
 
-#### [SGLang Project (`sgl-project/sglang`)](https://github.com/sgl-project/sglang)
-- **[PR #32152](https://github.com/sgl-project/sglang/pull/32152)**: `[Attention] Add attention-backend auto-tune CLI (#13363)`  
-  *Implemented automated attention backend benchmarking suite across FlashAttention, FlashInfer, and Triton kernels.*
+- **[PR #51599](https://github.com/vllm-project/vllm/pull/51599) · Async Mamba D2H CUDA Stream Synchronization** (`v1/worker`)  
+  *Fixed an asynchronous CUDA stream race condition during Mamba speculative decoding (MTP). Prevented D2H accepted token counts from corrupting shifted row indices after `InputBatch.condense()` by snapshotting unmutated CPU buffer states.*
+
+- **[PR #51574](https://github.com/vllm-project/vllm/pull/51574) · V1 Scheduler Priority Queue Preemption Re-Admission** (`v1/sched`)  
+  *Eliminated request queue starvation and redundant KV cache re-computations under priority scheduling. Designed a composite min-heap sort key with a bounded preemption boost `-min(num_preemptions, 3)` to prioritize victim re-admission.*
+
+- **[PR #50973](https://github.com/vllm-project/vllm/pull/50973) · PyTorch Dynamo FX Submodule Graph Unification** (`attention/ops`)  
+  *Decoupled `layer_name` string constant guards from custom OP signatures in the Unified KV Cache Manager. Unified 65 split FX submodules into a single compiled graph, shaving **12.05s (12.1%) off cold-start compilation** on Qwen3.5-27B.*
+
+#### 🛠️ [SGLang Serving Infrastructure (`sgl-project/sglang`)](https://github.com/sgl-project/sglang)
+
+- **[PR #32152](https://github.com/sgl-project/sglang/pull/32152) · Attention Backend Auto-Tuner CLI** (`auto_tune`)  
+  *Built an empirical auto-tuning CLI (`python -m sglang.auto_tune`) that benchmarks and selects candidate attention backends (Triton, FlashInfer, FlashAttention) per model/GPU workload, achieving a **12% output throughput gain** on Qwen3.5-9B.*
 
 ---
 
