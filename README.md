@@ -3,7 +3,7 @@
 **ML Systems & LLM Inference Engineer**  
 Ex-Amazon | Ex-Ford | M.S. Computer Science, Stony Brook University
 
-Specializing in high-performance LLM serving engine architectures, continuous batching scheduler algorithms, `torch.compile` / PyTorch Dynamo graph passes, CUDA stream synchronization, and KV cache memory management.
+Specializing in high-performance LLM serving engine architectures, continuous batching scheduler algorithms, speculative decoding, `torch.compile` / PyTorch Dynamo graph passes, CUDA stream synchronization, and hybrid Mamba/Transformer KV cache management.
 
 [LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) · [GitHub](https://github.com/bandham-manikanta) · [Email](mailto:bandhammanikanta@gmail.com)
 
@@ -13,8 +13,11 @@ Specializing in high-performance LLM serving engine architectures, continuous ba
 
 #### ⚡ [vLLM Core Serving Engine (`vllm-project/vllm`)](https://github.com/vllm-project/vllm)
 
+- **[PR #52460](https://github.com/vllm-project/vllm/pull/52460) · Model Runner V2 & Hybrid Architectures: Graceful Prefix Caching Fallback** (`config / model_executor`)  
+  *Resolved an engine warmup assertion failure when serving hybrid Mamba/Transformer architectures (`Nemotron-H`, `Falcon-Mamba`) with DSpark/DFlash speculative decoding or Context Parallelism under Model Runner V2. Implemented automated engine capability detection and fallback to block-aligned prefix caching (`align` mode), ensuring seamless startup across 4x A100 setups.*
+
 - **[PR #51599](https://github.com/vllm-project/vllm/pull/51599) · Speculative Decoding & Mamba: Async CUDA Stream D2H Sync** (`v1/worker`)  
-  *Fixed an asynchronous CUDA stream race condition during Mamba speculative decoding. Prevented D2H accepted token counts from corrupting shifted row indices after `InputBatch.condense()` by snapshotting unmutated CPU buffer states.*
+  *Eliminated an asynchronous CUDA stream race condition during Mamba speculative decoding with async scheduling. Established a global invariant isolating `InputBatch` host memory from DMA writes by targeting runner-owned buffers, preventing row index compaction from corrupting in-flight D2H accepted token counts.*
 
 - **[PR #51574](https://github.com/vllm-project/vllm/pull/51574) · Continuous Batching Scheduler: Priority Queue Preemption Fix** (`v1/sched`)  
   *Eliminated request queue starvation and redundant KV cache re-computations under priority scheduling. Designed a composite min-heap sort key with a bounded preemption boost `-min(num_preemptions, 3)` to prioritize victim re-admission.*
