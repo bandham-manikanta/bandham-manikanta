@@ -5,7 +5,7 @@ Ex-Amazon | Ex-Ford | M.S. Computer Science, Stony Brook University
 
 Specializing in high-performance LLM serving engine architectures, continuous batching scheduler algorithms, speculative decoding, `torch.compile` / PyTorch Dynamo graph passes, CUDA stream synchronization, and hybrid Mamba/Transformer KV cache management.
 
-[LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) · [GitHub](https://github.com/bandham-manikanta) · [Email](mailto:bandhammanikanta@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/bandham-manikanta/) · [Email](mailto:bandhammanikanta@gmail.com)
 
 ---
 
