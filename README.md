@@ -13,6 +13,9 @@ Specializing in high-performance LLM serving engine architectures, continuous ba
 
 #### ⚡ [vLLM](https://github.com/vllm-project/vllm)
 
+- **[PR #54280](https://github.com/vllm-project/vllm/pull/54280) · Triton FP8 MoE: Compute Capability Gating** (`fused_moe / triton_moe`) · *under review*  
+  *Implemented declarative capability gating in `TritonExperts.is_supported_config` for FP8 Tensor Cores (SM89+ Ada/Hopper). Prevents opaque Triton JIT compilation crashes (`fp8e4nv`) on Ampere (A100) and earlier architectures during engine warmup by cleanly validating hardware requirements before weight loading.*
+
 - **[PR #51599](https://github.com/vllm-project/vllm/pull/51599) · Speculative Decoding & Mamba: Async CUDA Stream D2H Sync** (`v1/worker`) · *under active maintainer review*  
   *Fixed an asynchronous CUDA stream race during Mamba speculative decoding with async scheduling. Moved the device-to-host accepted-token copy to a runner-owned buffer so that `condense()` row compaction in `InputBatch` can no longer corrupt counts while the DMA is still in flight.*
 
